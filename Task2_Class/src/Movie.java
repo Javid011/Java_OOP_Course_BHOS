@@ -37,3 +37,19 @@ class Movie {
         System.out.println("Is Blockbuster? " + movie.isBlockbuster());
     }
 }
+/*
+        +------------------------------------------------------+
+        |                        Movie                         |
+        +------------------------------------------------------+
+        | - title : String                                     |
+        | - director : String                                  |
+        | - duration : int                                     |
+        | - language : String                                  |
+        | - boxOffice : double                                 |
+        +------------------------------------------------------+
+        | + Movie(String, String, int, String, double)        |
+        | + showInfo() : void                                  |
+        | + calculateRevenue(double) : void                   |
+        | + isBlockbuster() : boolean                         |
+        +------------------------------------------------------+
+*/
