@@ -9,6 +9,10 @@ public class Main {
 
         Human child = new Human("Aftandil", "Qarayev", 1920, 5, new String[][]{{"1ci_gun", "Uniye get"}});
         family.addChild(child);
+        Human child2 = new Human("Qezenfer", "Qarayev", 1930);
+        family.addChild(child2);
+        System.out.println(family);
+        family.deleteChild(1);
 
         System.out.println(family);
         child.greetPet();
